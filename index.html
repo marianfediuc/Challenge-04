@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz Test</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<!-- <header>
+  <div id="marian2">
+    <h1 class="timeNew" style="text-align:center;"></h1>
+    
+  This line and the next with "Button example to study" is part of a study material to show a different way to code a button
+  </div>
+  
+  
+  <button onclick="myFunction2()">Button example to study</button>
+  
+</header> -->
+
+<body>
+  
+  <!-- <div class="container">
+    <div id="game" class="justify-center flex-column">
+      <h3 id="question">Questions Placeholder dot dot?</h3>
+      <div class="just-in-case-i-need-container">
+        <p class="users-answer" data-number="1">Answer 1</p>
+      </div>
+      <div class="just-in-case-i-need-container">
+        <p class="users-answer" data-number="2">Answer 2</p>
+      </div>
+      <div class="just-in-case-i-need-container">
+        <p class="users-answer" data-number="3">Answer 3</p>
+      </div>
+      <div class="just-in-case-i-need-container">
+        <p class="users-answer" data-number="4">Answer 4</p>
+      </div>
+    
+    </div>
+
+  </div> -->
+  
+  
+  
+  
+  <div>
+
+ 
+  <!-- page1 - Title, description and start Button -->
+  <div id = "main-page" style="display: block">
+  <!-- page1 -->
+    <h1> Trivia Quiz Challenge </h1>
+    <p>
+      Try to answer the following Trivia questions within the time limit. Incorrect answer will penalize your score-time by ten seconds.
+    </p>
+    <!-- <h3></h3> -->
+      <div>
+        <button class="start-button" >Start</button>
+        <!-- <button id="start-button" class="start-btn btn">Start</button> -->
+        
+      </div>
+      
+
+    
+    
+
+    <!-- <div class= "card timer">
+      <div class = "timer-text">
+        <div class="time2">75</div>
+        <h3>seconds remaining</h3>
+      </div>
+    
+    </div> -->
+
+  </div>
+
+  <!-- <div id="question" class="hide">
+    <h2 id="question-title"></h2>
+    <div id="choices" class="choices"></div>
+  </div> -->
+
+        <div id = "first-page" style="display: none">
+
+          <p>
+            Who was the modern arts painter initiating the cubism as a fine arts trend/movement?
+          </p>
+          <div id = "responses" class="btn-grid">
+            <h4>
+              <button class = "picasso-btn">1. Picasso</button>
+           </h4>
+           <h4>
+              <button class = "dali-btn">2. Dali</button>
+            </h4>
+            <h4>
+              <button class = "cezanne-btn">3. Paul Cezanne</button>
+            </h4>
+            
+          </div>
+          
+          
+
+          <p class = "correct-answer"> Picasso</p>
+
+          <button class = "nextButton">next</button>
+
+          <!-- <button class="next-button" >Next</button> -->
+
+          <!-- <div class= "card timer">
+            <div class = "timer-text">
+              <div class="time2">75</div>
+              <h3>seconds remaining</h3>
+            </div> -->
+
+          
+
+        </div>
+
+        <div class = "second-page" style="display: none">
+
+          <p>
+            Who was the writer who wrote Dracula novel?
+          </p>
+          <div id = "responses" class="btn-grid">
+          
+            <h4>
+              <button class = "bram">1. Bram Stoker</button>
+            </h4>
+            <h4>
+              <button class = "scott">2. Scott Fitzgerald</button>
+            </h4>
+            <h4>
+              <button class = "herman">3. Herman Melville</button>
+            </h4>
+      
+          </div>
+          
+
+          <p class = "corect-answer">1. Bram Stoker</p>
+
+         
+
+        </div>
+
+        <h class= "card-timer">
+          <div class = "timer-text">
+            <div class="time2">75</div>
+            <h3>seconds remaining</h3>
+          </div>
+
+        </h>
+
+    <div id="end-screen" style="display: none">
+        <h2>All done!</h2>
+      <p>Your final score is<span id="final-score"></span></p>
+      <p>
+        Enter initials: <input type="text" id="initials" max="3" />
+      </p>
+      <button id="submit">Submit</button>
+    </div>
+  
+  <!-- <div class="wrapper">
+    <div class="container">
+      <div class="card-contents" >
+        <h4>Current Count: <span id="count">0</span></h4>
+        <button id="decrement">Decrement</button>
+        <button id="increment">Increment</button>
+      </div>
+    </div>
+  </div>  -->
+  </div>
+  <script src="./assets/js/script.js"></script> 
+</body>
+</html> 
